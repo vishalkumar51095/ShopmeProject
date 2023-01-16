@@ -11,8 +11,13 @@
     <groupId>com.shopme</groupId>
     <artifactId>ShopmeProject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>ShopmeProject</name>
-    <description>ShopmeProject</description>
+    <description>Root Project</description>
+    <modules>
+        <module>ShopmeCommon/ShopmeCommon</module>
+        <module>ShopmeWebProject</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
     </properties>
